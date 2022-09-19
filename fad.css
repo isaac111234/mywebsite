@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden !important;
+    
+}
+.container{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0, 0, 0, 0.5)), url('/image2.jpg');
+    height: 500px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    background-position: center;
+}
+  .logo{
+    height: 50px;
+    width: 200px;
+    background-image: url('/remove-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 10px;
+}
+ .qw{
+  position: relative;
+  top: 300px;
+  color: white;
+  left: 70px;
+  font-size:50px;
+}
+.header{
+width: 85%;
+height: 70px;
+display: block;
+background-color:white;
+margin-top:30px !important;
+margin-left: 110px;
+border-radius: 20px;
+position: fixed;
+z-index: 10;
+
+}
+.inner_header{
+width:1200px ;
+height: 100%;
+display: block;
+margin-left:50px ;
+
+}
+.navigation{
+    float:right;
+    height: 100%;
+    margin-right: 200px;
+}
+.navigation li{
+    float: left;
+    text-decoration: none;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    list-style-type: none;
+    padding:10px 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sub{
+    background-color: #2B98D0;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.navigation .sub{
+  color: white;
+  padding: 10px 20px;
+  margin-bottom:15px;
+}
+.navigation .sun{
+    color: #2B98D0;
+  }
+.father{
+    height:650px;
+    background-color:antiquewhite;
+    padding: 10px;
+}
+.child{
+    background-image: url('/12.png');
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 270px;
+    margin-top: 50px;
+}
+.child_1{
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    background-image: url('/13.png');
+    left: 50px;
+    bottom: 150px;
+}
+.child_2{
+    background-image: url('/14.png');
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 270px;
+    bottom: 270px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.child_3{
+    background-image: url('/15.png');
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    bottom:430px;
+    left: 50px;
+    background-repeat: no-repeat;
+}
+.child5{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    bottom: 950px;
+    left: 600px;
+}
+.child5 p{
+    padding: 10px;
+}
+.child6{
+    width: 500px;
+    height: 170px;
+    position: relative;
+    bottom: 900px;
+    left: 600px; 
+}
+.child6 p{
+    padding: 10px;
+}
+.mother{
+    height:600px;
+}
+.card{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.card h3{
+    padding:5px;
+}
+.card h2{
+    padding: 5px;
+}
+.card p{
+    padding: 1px;
+}
+.card .cc{
+   color: #2B98D0 ;
+}
+.card2{
+    width: 400px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 650px;
+    background-image:linear-gradient(to bottom, rgb(9, 29, 96), rgba(82, 113, 221)), url('/office.jpg');
+}
+ .card2 p{
+padding :0px 10px 0px 10px;
+ color: aliceblue;
+
+}
+.card2 h2{
+ padding :20px 10px 0px 10px;
+color: aliceblue;
+}
+ .camel{
+    border-radius: 50%;
+    width: 60px;
+    background-color: aliceblue;
+    height: 60px;
+    border:2px solid black;
+    position: absolute;
+    top: -50px;
+    left:-40px;
+}
+.came{
+border-radius: 50%;
+width: 60px;
+background-color: aliceblue;
+height: 60px;
+border:2px solid black;
+position: absolute;
+top: -30px;
+left:-40px;
+}
+.sad{
+  background-image: url('/finish.png');
+  background-position: center;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+.el{
+    background-image: url('/image\ 5\ \(2\).png');
+    background-position: center;
+    background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+.back{
+    background-image: url('/cctv-camera.png');
+    background-position: center;
+    background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+.card3{
+  width: 400px;
+ height: 170px;
+ border-radius: 10px;
+ position: relative;
+bottom: 20px;
+ left: 150px;
+ background-image:linear-gradient(to bottom, rgb(9, 29, 96), rgba(82, 113, 221)), url('/office.jpg');
+}
+.card3 p{
+    padding :0px 10px 0px 10px;
+    color: aliceblue;
+}
+.card3 h2{
+    padding :20px 10px 0px 10px;
+    color: aliceblue;
+
+}
+.card4{
+    width: 400px;
+    height: 170px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 200px;
+    left: 670px;
+    background-image:linear-gradient(to bottom, rgb(9, 29, 96), rgba(82, 113, 221)), url('/office.jpg');
+}
+.card4 h2{
+    padding :20px 10px 0px 10px;
+    color: aliceblue;
+}
+.card4 p{
+    padding :0px 10px 0px 10px;
+    color: aliceblue;
+}
+.sister{
+    padding: 40px 10px 100px 10px;
+    display: flex;
+    background-image:linear-gradient(to bottom, rgb(9, 29, 96, 0.9), rgba(82, 113, 221, 0.9)), url('/tech.gif');
+}
+.ss{
+    width: 500px ;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.ss h1{
+    padding: 10px;
+    color: white;
+}
+.ss p{
+    padding: 10px;
+    color: white;
+}
+.ssn{
+    background-color: rgb(196, 116, 12);
+    width:2px;
+    height:300px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.ssm{
+width: 500px ;
+height: 300px;
+margin-left: 50px;
+margin-top: 30px;
+}
+.ssm h1{
+    padding: 10px;
+    color: white;
+}
+.ssm p{
+    padding: 5px;
+    color: white;
+}
+.brother{
+    height: 550px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.brother h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size:30px;
+}
+.cas{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 500px;
+    left: 1000px;
+    background-image: url('/office.jpg');
+    background-position: center;
+    border-radius: 10px;
+}
+.ca{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 550px;
+    left: 900px;
+    background-image: url('/map.jpg');
+    background-position: center;
+    border-radius: 10px;
+}
+.div{
+    width: 600px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.div ul li{
+    padding: 10px;
+}
+div p{
+    padding: 10px;
+    margin-top: 20px;
+}
+footer{
+    padding: 5px 0px 20px 0px;
+    background-image:linear-gradient(to bottom, rgb(9, 29, 96, 0.9), rgba(82, 113, 221, 0.9)), url('/tech.gif');
+}
+.everyone{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    margin-left: 30px;
+}
+.our{
+    width: 250px;
+    margin-top: 50px;
+    margin-top:70px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.our ul li{
+    color: aliceblue;
+    font-size: small;
+    list-style-type:none;
+    line-height: 2;
+}
+.our1{
+    width: 200px ;
+    height:300px ;
+    margin-top: 20px; 
+}
+.our1 .aa{
+   height: 50px;
+   width: 200px;
+   background-image: url('/remove-bg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
+   display: inline-block;
+   margin-top: 40px;
+   border: 1px solid black;
+}
+.our1 .bb{
+  margin-top: 100px;
+   height: 50px;
+   width: 200px;
+   display: flex;
+}
+.our1 .cc{
+    height: 40px;
+    width: 34px;
+    margin-left: 15px;  
+}
+ .po{
+    background-image: url('/fblogo.png');
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
+}
+.bn{
+    background-image: url('/tiklogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.cnn{
+    background-image: url('/iglogon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+} 
+.cbb{
+    background-image: url('/twtlogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+} 
+.our h3{
+    color: aliceblue;
+}
+.gen{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: small;
+}
+.png{
+    background-color:rgb(139, 148, 156);
+    width: 800px;
+    height: 1px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
